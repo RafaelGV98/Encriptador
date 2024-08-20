@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escriptor de texto</title>
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="./IMG/Logo.png" alt="logo de alura">
+    </header>
+
+     <main class="main">
+        <section>
+            <textarea class="area__texto" id="texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="informacion">
+                 <p> <img src="./IMG/Frame 1.png">Solo letras minúsculas y sin acentos</p>    
+                </div>
+
+            <div class="botones">
+                <button class="bt__encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="bt__desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            
+        
+            </section>
+                <section>
+                    
+                    <div class="encriptado" id="textoencriptado" >
+                        <img src="./IMG/Muñeco.png"/>
+                    <div class="mensaje_encriptado">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>        
+
+                    <div class="bt-copiar">
+                     <button class="copiar" onclick="copiar()">Copiar</button>
+                    </div>
+            </section>
+
+
+        </main>
+
+        <section><
+
+            <footer class="footer">
+             <p>Diseñado por ing. Rafael guerra</p>
+            </footer>
+
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
