@@ -6,16 +6,17 @@
 *{
     margin: 0;
     padding: 0;
+    
   
     
 }
 
 body{
-    position: relative;
     width: 100vw;
     height: 100vh;
     background:#D8DFE8;
-    padding-bottom: 50px;
+    box-sizing: border-box;
+    
     
     
 }
@@ -246,6 +247,7 @@ body{
     body{
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 
     .area__texto{
@@ -259,9 +261,11 @@ body{
         width: 80%;
         left: 5%;
         top: 67%;
+        
     }
     .informacion p{
         font-size: 16px;
+        
     }
     .botones{
         width: 80%;
@@ -292,8 +296,10 @@ body{
 
     .mensaje_encriptado{
 
-        width: 100%;
-        top: 15%;
+        width: auto;
+        top: 2%;
+        left: 15%
+    
     }
 
     .encriptado img{
@@ -306,7 +312,7 @@ body{
 @media (max-width: 400px){
 
     body{
-        padding: 35px;
+        width: auto;
     }
 
     .area__texto{
