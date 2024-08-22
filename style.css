@@ -245,9 +245,7 @@ body{
 
 @media (max-width: 700px){
     body{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+        width: auto;
     }
 
     .area__texto{
@@ -333,7 +331,6 @@ body{
     }
 
     .botones{
-        width: 80%;
         gap: 10px;
         left: 10%;
         top: 70%;
