@@ -1,4 +1,5 @@
 <h1>Encriptador de texto</h1>
-<p>tecnoligias utilizadas</p>
+<p>tecnologias utilizadas</p>
 <li>CSS</li>
 <li>HTML</li>
+<li>JavaScript</li>
