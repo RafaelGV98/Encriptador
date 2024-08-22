@@ -1,1 +1,1 @@
-<h1>Encriptador de txto</h1>
+<h1>Encriptador de texto</h1>
